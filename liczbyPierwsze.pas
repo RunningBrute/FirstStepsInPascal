@@ -6,7 +6,7 @@ pierwsza: boolean;
 
 begin
     clrscr;
-    writeln('Podaj liczb© a komputer powie czy jest to liczba pierwsza');
+    writeln('Podaj liczbe a komputer powie czy jest to liczba pierwsza');
     readln(n);
 
     pierwsza:=True;
@@ -19,8 +19,8 @@ begin
     end;
 
     if (n>1) and pierwsza then
-        writeln('Podana przez Ciebie liczba jest liczb¥ pierwsz¥')
+        writeln('Podana przez Ciebie liczba jest liczba pierwsza')
     else
-        writeln('Podana przez Ciebie liczba nie jest liczb¥ pierwsz¥');
+        writeln('Podana przez Ciebie liczba nie jest liczba pierwsza');
         readln;
 end.

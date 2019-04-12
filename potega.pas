@@ -4,10 +4,10 @@ Program xxx;
     
     begin
         clrscr;
-        writeln('Program oblicza dowolna poteg© liczby');
-        writeln('Podaj wykˆadnik pot©gi');
+        writeln('Program oblicza dowolna potege liczby');
+        writeln('Podaj wykladnik potegi');
         readln(j);
-        writeln('Podaj podstaw© pot©gi');
+        writeln('Podaj podstawe potegi');
         readln(k);
     
         for k:=1 to j do

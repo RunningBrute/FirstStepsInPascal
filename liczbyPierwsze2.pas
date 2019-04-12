@@ -5,7 +5,7 @@ var liczba,x,n:longint;
 
 begin
     clrscr;
-    Writeln('Wpisz liczb©, kt¢r¥ chcesz sprawdzi†');
+    Writeln('Wpisz liczba, ktora chcesz sprawdzic');
     Readln(x);
 
     liczba:=x;
