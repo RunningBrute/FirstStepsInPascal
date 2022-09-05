@@ -1,0 +1,32 @@
+Program prawo;
+uses crt;
+var x1, x2, x3, x4: string;
+begin
+writeln('Program opisuje pierwsze prawo Mendla');
+writeln('odnosz¥ce si© do dziedziczenia pˆci');
+writeln('LEGENDA');
+writeln('XX - samica');
+writeln('XY - samiec');
+writeln('p - pokolenie rodzicielskie');
+writeln('F1 - pierwsze pokolenie mieszaäc¢w');
+writeln('Naci˜nij ENTER aby kontynuowa†');
+readln;
+writeln('p:XX*XY. Aby zobaczy† co powstanie ');
+writeln('w wyniku ich skrzy¾owania naci˜nij ENTER');
+readln;
+writeln('              ||              samiec              |');
+writeln('              ||----------------|-----------------|');
+writeln('    samica    ||       X        |        Y        |');
+writeln('|-----|-------||==================================|');
+writeln('|     |   X   ||       XX       |        XY       |');
+writeln('|-----|-------||----------------|-----------------|');
+writeln('|     |   X   ||       XX       |        XY       |');
+writeln('|-----|-------||----------------|-----------------|');
+writeln('|     |       ||                |                 |');
+writeln('Nacisnij klawisz ENTER aby przejsc dalej......');
+readln;
+writeln('Fenotyp wynosi 2:2, czyli 50%');
+writeln('Genotyp: 2:2, czyli zawsze bedzie 50% szans');
+writeln('na chˆopca oraz 50 % szans na dziewczynk©');
+readln;
+end.
